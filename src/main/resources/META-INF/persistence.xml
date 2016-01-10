@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence xmlns="http://java.sun.com/xml/ns/persistence"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_1_0.xsd"
+	version="1.0">
+
+	<persistence-unit name="pu" transaction-type="RESOURCE_LOCAL">
+		<class>com.rec.models.Admin</class>
+		<class>com.rec.models.Annonceur</class>
+		<class>com.rec.models.Candidat</class>
+		<class>com.rec.models.Candidature</class>
+		<class>com.rec.models.Competence</class>
+		<class>com.rec.models.Contrat</class>
+		<class>com.rec.models.CV</class>
+		<class>com.rec.models.Etat</class>
+		<class>com.rec.models.Experience</class>
+		<class>com.rec.models.Formation</class>
+		<class>com.rec.models.Langue</class>
+		<class>com.rec.models.Mobilite</class>
+		<class>com.rec.models.Nationalite</class>
+		<class>com.rec.models.Offre</class>
+		<class>com.rec.models.Proposition</class>
+		<class>com.rec.models.RH</class>
+		<class>com.rec.models.Salaire</class>
+		<class>com.rec.models.Secteur</class>
+		<class>com.rec.models.SituationFamiliale</class>
+		<class>com.rec.models.Employee</class>
+		<exclude-unlisted-classes>true</exclude-unlisted-classes>
+	</persistence-unit>
+
+</persistence>
