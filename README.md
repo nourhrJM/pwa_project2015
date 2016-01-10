@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 [![Build Status](https://travis-ci.org/7mza/alpha-recrute.svg?branch=master)](https://travis-ci.org/7mza/alpha-recrute)
 <br />
 <br />
@@ -18,3 +19,8 @@ Travis CI : https://travis-ci.org/7mza/alpha-recrute <br />
 
 
 
+=======
+# pwa_project2015
+
+This is the git repo for our PWA project
+>>>>>>> ffb8815c6ab457a3fb70e040ff1e06c4f5ce7b93
